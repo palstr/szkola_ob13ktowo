@@ -56,4 +56,13 @@ public class Osoba {
             System.out.println("Odmowa dostępu");
         }
     }
+
+    @Override
+    public String toString() {
+        return "Osoba" +
+                "imie='" + imie + '\'' +
+                ", nazwisko='" + nazwisko + '\'' +
+                ", wiek=" + wiek +
+                '.';
+    }
 }
